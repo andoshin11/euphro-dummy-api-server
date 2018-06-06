@@ -1,0 +1,14 @@
+{
+  "name": "agreed-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "andoshin11 <shinglish11@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "agreed": "^3.1.0"
+  },
+  "scripts": {
+    "start": "agreed-server --path ./index.js --port 3010",
+    "ui": "agreed-ui --path ./index.js --port 3031"
+  }
+}
